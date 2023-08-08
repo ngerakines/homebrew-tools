@@ -36,10 +36,10 @@ end
 
 __END__
 diff --git a/Makefile b/Makefile
-index da93d4c..d0559f9 100644
+index 8f3f38d..9f6c2f8 100644
 --- a/Makefile
 +++ b/Makefile
-@@ -65,6 +65,8 @@ else ifdef HAVE_LIBOWCRYPT
+@@ -66,6 +66,8 @@ else ifdef HAVE_LIBOWCRYPT
  # owl and openSUSE have crypt_gensalt(3) in libowcrypt
  DEFS += -DHAVE_CRYPT_H -DHAVE_LINUX_CRYPT_GENSALT -D_OW_SOURCE
  mkpasswd_LDADD += -lcrypt -lowcrypt
